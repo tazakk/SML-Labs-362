@@ -27,3 +27,19 @@ Quicksort in SML using the following functions:
  `partition`: Partitions the given list into a list of elements that are less than or equal to `p` and a list of elements that are greater than `p`.\
  `quicksort`: Sorts a list.\
  All functions can be found in `/src/Lab2/lab2.sml`.
+
+# Lab 3
+
+Implementing a Binary Search Tree (BST) and its operations with the following functions:
+- `insert(bst, key, value)` of type `BST * int * int -> BST`
+- `find(bst, key)` of type `BST * int -> int list`
+- `delete(bst, key)` of type `BST * int -> BST`
+- `postorder(bst)` of type `BST -> (int * int * int) list`
+- `subtree(bst, minKey, maxKey)` of type `BST * int * int -> BST`
+
+`insert`: Inserts a key-value pair into a given tree and returns the resulting tree. (Note: each key is unique, so inserting an existing key will overwrite the value in the corresponding node)\
+`find`: Searches for a node with the given key and returns a list containing the corresponding value if the node exists, or an empty list otherwise\
+`delete`: Deleted the node with the given key from the given tree and returns the resulting tree; if no node exists, it returns the unchanged tree\
+`postorder` returns a postorder of the given tree\
+`subtree`: Trims the given tree such that all the keys in the new tree are between minKey and maxKey (inclusive) and returns a valid BST\
+All functions can be found in `/src/Lab 3/bst.sml`.

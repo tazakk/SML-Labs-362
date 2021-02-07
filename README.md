@@ -15,7 +15,7 @@ Additional function(s) added:
 `primes`: Outputs all prime number that are smaller than or equal to a given integer `n` using the Sieve of Eratosthenes algorithm.\
 `sieve`: Helper function for `primes` that runs the Sieve of Eratosthenes.\
 
-All functions can be found in `/Lab1/lab1.sml`.
+All functions can be found in `/Lab 1/lab1.sml`.
 
 # Lab 2
 
@@ -36,7 +36,7 @@ Additional function(s) added:
 `quicksort`: Sorts a list.\
 `monotone`: Returns true if all number in the list are the same.\
 
-All functions can be found in `/Lab2/lab2.sml`.
+All functions can be found in `/Lab 2/lab2.sml`.
 
 # Lab 3
 

@@ -14,6 +14,7 @@ Additional function(s) added:
 `removeMult`: Removes all multiples of a given integer from the list.\
 `primes`: Outputs all prime number that are smaller than or equal to a given integer `n` using the Sieve of Eratosthenes algorithm.\
 `sieve`: Helper function for `primes` that runs the Sieve of Eratosthenes.\
+
 All functions can be found in `/Lab1/lab1.sml`.
 
 # Lab 2
@@ -34,6 +35,7 @@ Additional function(s) added:
 `partition`: Partitions the given list into a list of elements that are less than or equal to `p` and a list of elements that are greater than `p`.\
 `quicksort`: Sorts a list.\
 `monotone`: Returns true if all number in the list are the same.\
+
 All functions can be found in `/Lab2/lab2.sml`.
 
 # Lab 3
@@ -54,4 +56,5 @@ Additional function(s) added:
 `postorder`: Returns a postorder of the given tree.\
 `subtree`: Trims the given tree such that all the keys in the new tree are between minKey and maxKey (inclusive) and returns a valid BST.\
 `findMin`: Finds the minimum value in the left subtree of a given node and replaces the current node with its values while maintaining a valid BST structure.\
+
 All functions can be found in `/Lab 3/bst.sml`.

@@ -8,7 +8,7 @@ Lab required three functions:
 - `primes(n)` of type `int -> int list`
 
 Additional function(s) added:
-- `sieve` of type `int list -> int list`
+- `sieve(lst)` of type `int list -> int list`
 
 `makeLst`: Takes as input a positive integer `n` and returns the list `[1,2,3,...,n]`.\
 `removeMult`: Removes all multiples of a given integer from the list.\

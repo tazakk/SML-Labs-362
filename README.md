@@ -1,7 +1,7 @@
 # SML-labs
 Repository for my CS 362 SML labs.
 
-# Lab 1
+## Lab 1
 Lab required three functions:
 - `makeLst(n)` of type `int -> int list`
 - `removeMult(lst, n)` of type `int list * int -> int list`
@@ -17,7 +17,7 @@ Additional function(s) added:
 
 All functions can be found in `/Lab 1/lab1.sml`.
 
-# Lab 2
+## Lab 2
 
 Lab required Quicksort in SML using the following functions:
 - `last(lst)` of type `'a list -> 'a`
@@ -38,7 +38,7 @@ Additional function(s) added:
 
 All functions can be found in `/Lab 2/lab2.sml`.
 
-# Lab 3
+## Lab 3
 
 Lab required implementing a Binary Search Tree (BST) and its operations with the following functions:
 - `insert(bst, key, value)` of type `BST * int * int -> BST`

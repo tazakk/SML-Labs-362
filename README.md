@@ -26,15 +26,11 @@ Lab required Quicksort in SML using the following functions:
 - `partition(lst, p)` of type `int list * int -> int list * int list`
 - `quicksort(lst)` of type `int list -> int list`
 
-Additional function(s) added:
-- `monotone(lst)` of type `int list -> bool`
-
 `last`: Returns the last element of a given list.\
 `middle`: Returns the middle element of a given list.\
 `median`: Returns the median of the three given elements.\
 `partition`: Partitions the given list into a list of elements that are less than or equal to `p` and a list of elements that are greater than `p`.\
 `quicksort`: Sorts a list.\
-`monotone`: Returns true if all number in the list are the same.\
 
 All functions can be found in `/Lab 2/lab2.sml`.
 

@@ -33,29 +33,12 @@ fun partition(nil, p) = (nil, nil)
         else (x,a::y)
       ) end;
 
-(* determines if all elements in the list are the same number *)
-fun monotone(nil) = true
-  | monotone([a]) = true
-  | monotone(a::b::nil) =
-      if a = b then true
-      else false
-  | monotone(a::b::cs) =
-      if a = b then (true andalso monotone(cs))
-      else false;
-
 (* run quicksort *)
-fun quicksort([a]) = [a] 
-  | quicksort(lst) =
+fun quicksort([]) = nil 
+  | quicksort([a]) = [a]
+  | quicksort(a::b) =
       let
-        val a = last lst
-        val b = middle lst
-        val c = hd lst
-        val p = median (a,b,c)
-        val (x,y) = partition (lst,p) 
+        val (smaller,larger) = partition(b,a)
       in (
-        if (null(y) andalso monotone(x)) then x
-        else if null(y) then (quicksort (tl x @ (hd x :: nil)))
-        else if (null(x) andalso monotone(y)) then y
-        else if null(x) then (quicksort (tl y @ (hd y :: nil)))
-        else (quicksort x @ quicksort y)
+        quicksort(smaller) @ [a] @ quicksort(larger)
       ) end;
